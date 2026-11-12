@@ -1,0 +1,64 @@
+# ---- Secrets and credentials (never commit these) ----
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*.token
+id_rsa*
+
+# ---- Logs (can contain local paths, usernames, hostnames) ----
+*.log
+logs/
+
+# ---- Generated output (keep only the reference result) ----
+out/*
+!out/daily_metrics.csv
+
+# ---- Real / private data (only the synthetic sample is committed) ----
+data/private/
+data/raw/
+data/*.parquet
+*.parquet
+*.crc
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+build/
+dist/
+
+# ---- Spark / Hadoop / Java artifacts ----
+spark-warehouse/
+metastore_db/
+derby.log
+.ivy2/
+.sbt/
+*.class
+hs_err_pid*
+hadoop/
+winutils*
+
+# ---- IDEs and editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini

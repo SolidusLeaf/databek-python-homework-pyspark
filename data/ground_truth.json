@@ -1,0 +1,38 @@
+{
+  "total_sessions": 1660,
+  "overall_avg_session_length_s": 1697.11,
+  "per_day": {
+    "2026-11-01": {
+      "sessions": 232,
+      "avg_length_s": 1722.32
+    },
+    "2026-11-02": {
+      "sessions": 246,
+      "avg_length_s": 1705.47
+    },
+    "2026-11-03": {
+      "sessions": 237,
+      "avg_length_s": 1771.82
+    },
+    "2026-11-04": {
+      "sessions": 239,
+      "avg_length_s": 1613.02
+    },
+    "2026-11-05": {
+      "sessions": 224,
+      "avg_length_s": 1702.42
+    },
+    "2026-11-06": {
+      "sessions": 240,
+      "avg_length_s": 1742.79
+    },
+    "2026-11-07": {
+      "sessions": 228,
+      "avg_length_s": 1625.73
+    },
+    "2026-11-08": {
+      "sessions": 14,
+      "avg_length_s": 1597.5
+    }
+  }
+}
